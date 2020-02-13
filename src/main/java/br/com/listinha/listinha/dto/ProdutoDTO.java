@@ -14,7 +14,7 @@ public class ProdutoDTO {
 	
 	private String nome;
 	private String descricao;
-	private double preco;
+	private Double preco;
 	private LocalDate dataValidade;
 	private Long quantidade;
 	private UnidadeMedida unidadeMedida;
@@ -50,10 +50,10 @@ public class ProdutoDTO {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	public double getPreco() {
+	public Double getPreco() {
 		return preco;
 	}
-	public void setPreco(double preco) {
+	public void setPreco(Double preco) {
 		this.preco = preco;
 	}
 	public LocalDate getDataValidade() {

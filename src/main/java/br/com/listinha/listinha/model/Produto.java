@@ -29,7 +29,7 @@ public class Produto implements Serializable{
 	
 	private String nome;
 	private String descricao;
-	private double preco;
+	private Double preco;
 	private LocalDate dataValidade;
 	private Long quantidade;
 	
@@ -37,7 +37,7 @@ public class Produto implements Serializable{
 	private UnidadeMedida unidadeMedida;
 	
 	
-	public Produto(Long codigo, String nome, double preco, LocalDate dataValidade) {
+	public Produto(Long codigo, String nome, Double preco, LocalDate dataValidade) {
 		super();
 		this.codigo = codigo;
 		this.nome = nome;
@@ -45,7 +45,7 @@ public class Produto implements Serializable{
 		this.dataValidade = dataValidade;
 	}
 
-	public Produto(String nome, String descricao, double preco, LocalDate dataValidade, Long quantidade,
+	public Produto(String nome, String descricao, Double preco, LocalDate dataValidade, Long quantidade,
 			UnidadeMedida unidadeMedida) {
 		super();
 		this.nome = nome;
@@ -66,7 +66,7 @@ public class Produto implements Serializable{
 		super();
 	}
 
-	public Produto(Long codigo, String nome, String descricao, double preco, LocalDate dataValidade, Long quantidade,
+	public Produto(Long codigo, String nome, String descricao, Double preco, LocalDate dataValidade, Long quantidade,
 			UnidadeMedida unidadeMedida) {
 		super();
 		this.codigo = codigo;
@@ -96,10 +96,10 @@ public class Produto implements Serializable{
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	public double getPreco() {
+	public Double getPreco() {
 		return preco;
 	}
-	public void setPreco(double preco) {
+	public void setPreco(Double preco) {
 		this.preco = preco;
 	}
 	public LocalDate getDataValidade() {
