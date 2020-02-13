@@ -1,0 +1,2 @@
+INSERT INTO T_LIS_PRODUTO(nome, descricao, preco, data_validade, quantidade, unidade_medida) values ('Wafer Maxi 2x mais recheio', 'Wafer sabor chocolate branco com confeitos sabor chocolate', 2.5, '2020-11-20', 1, 'G');
+INSERT INTO T_LIS_PRODUTO(nome, descricao, preco, data_validade, quantidade, unidade_medida) values ('Leite Integral ITALAC', 'Leite Integral', 3.9, '2020-04-10', 1, 'UNID');
